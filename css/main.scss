@@ -1,0 +1,41 @@
+body {
+    font-family: 'Helvetica Neue', Helvetica, sans-serif;
+    font-weight: 300;
+}
+
+img {
+    opacity: 50%;
+    transition: opacity 1s;
+}
+
+img:hover {
+    opacity: 100%;
+}
+
+h1, h2, h3 {
+    color: #8e0d0d;
+}
+
+h3 {
+    margin-top: 2em;
+}
+
+ul {
+    display: inline-block;
+    text-align: left;
+}
+
+li {
+    padding-left: 1em;
+}
+
+a {
+    text-decoration: none;
+}
+
+footer {
+    background-color: #8e0d0d;
+    padding: 1em 0 .1em 0;
+    color: #fff;
+    text-align: center;
+}
